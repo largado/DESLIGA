@@ -1,0 +1,19 @@
+=== ATXOFF.SCR ===
+A
+MOV     AX,5301
+XOR     BX,BX
+INT     15
+MOV     AX,530E
+XOR     BX,BX
+MOV     CX,0102
+INT     15
+MOV     AX,5307
+XOR     BX,BX
+INC     BX
+MOV     CX,0003
+INT     15
+RET
+
+G
+ATXOFF.COM Version 1.3
+=== End of ATXOFF.SCR ===
